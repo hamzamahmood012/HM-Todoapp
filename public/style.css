@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.border{
+    width: 265px;
+    height: 353px;
+    border: 5px solid rgba(0, 0, 0, 0.205);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 8%;
+    border-radius: 15px;
+   
+}
+.main{
+    position: absolute;
+    
+    background: linear-gradient(to right, #ffa500 41%, #ffff00 100%);
+    height: 100%;
+    width: 100%;
+  
+}
+h1{
+    font-size: 2rem;
+    font-weight: 50;
+    text-align: center;
+    color: #fff;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.styling{
+    font-weight: 1000;
+    color:rgb(34, 253, 122);
+}
+.input1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input1 .input2{
+    
+    height: 35px;
+    border: none;
+    background-color: #fff;
+    width: 230px;
+    font-size: 15px;
+    margin: 0.25rem;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.addbtn{
+height: 35px;
+width: 35px;
+border-radius: 25px;
+outline: none;
+border: none;
+background-color: rgb(34, 227, 255);
+color: white;
+align-items: center;
+cursor: pointer;
+
+}
+.addbtn :hover{
+    opacity: 0.7;
+}
+.addbtn :active{
+    transform: translateY(4px);
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+ul{
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid white;
+    font-family: 'hind' sans-serif;
+}
+li{
+    background: none;
+    outline: none;
+    color: white;
+    border: none;
+    width: 160px;
+    font-size: 25px;
+    list-style: none;
+    font-family: 'hind' sans-serif;
+    
+}
+.btn1{
+    font-size: 13px;
+    margin: 2px;
+   padding-left: 30px;
+    outline: none;
+    font-family: 'hind' sans-serif;
+    color: rgb(34, 227, 255);
+    background: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn{
+    padding-left: 10px;
+    font-size: 13px;
+    border: none;
+ background: none;
+    outline: none;
+    font-family: 'hind' sans-serif;
+    color: rgb(240, 45, 54);
+    font-weight: bold;
+    cursor: pointer;
+}
